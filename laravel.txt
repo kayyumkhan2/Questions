@@ -1,0 +1,266 @@
+#HR
+
+Tell me about yourself.
+Why leaving current company?
+Why Our Company?
+What are your Strength and Weakness?
+Questions form Internship/prior projects.
+----------------------------------------------------
+#TECHNICAL
+
+1. Why use PUT | PATCH | DELETE in Laravel
+POST to create a resource
+GET to read a resource or collection of resources
+PUT to update/replace a resource
+PATCH to update/modify a resource
+DELETE to destroy a resource
+
+PUT - update a resource (by replacing it with a new version)*
+PATCH - update part of a resource (if available and appropriate)*
+POST - It will insert same row in table if called multiple times but PUT will completely replace the same data
+
+PUT VS POST
+put will replace the data if its same as existing one, like clicking submitting multiple times
+post will add redundant data. 
+
+2. https://www.guru99.com/laravel-interview-questions.html
+
+3. What is Socket in Laravel?
+Sockets allow real-time communication between the browser of a client and the server. There are a lot of use cases for sockets. For example, sockets could be used for notifications or a chat application. We use broadcast to run sockets.
+
+4. Cache/Session
+5. Bcrypt hash
+6. Mail
+7. JSON.parse() to convert the string into a JavaScript object (string to object)
+8. Providers
+9. middleware:
+Middleware acts as a bridge between a request and a response.
+10. json.stringify() method converts a JavaScript object or value to a JSON string (object to string)
+11. What is Ajax? Ajax is abbreviated as Asynchronous Javascript and XML
+
+12. $prodID= Crypt::encrypt($data->id)
+13. $prodID = Crypt::decrypt($id)
+14. Crypt uses OpenSSL using AES-256 and AES-128 encryption.
+15. Array :
+array_merge vs array_combine
+array_combine(): It is used to creates a new array by using the key of one array as keys and using the value of another array as values.
+array_merge(): It merges one or more than one array such that the value of one array appended at the end of the first array. If the arrays have the same strings key, then the next value overrides the previous value for that key.
+
+The array_merge_recursive() function merges one or more arrays into one array. The difference between this function and the array_merge() function is when two or more array elements have the same key. Instead of override the keys, the array_merge_recursive() function makes the value as an array.
+
+array_shift() - Remove the first element from an array, and return the value of the removed element.
+array_map() - Send each value of an array to a function.
+array_slice($index, 1, 4) -> break array from-to key.
+array_search() - its returns the position of searched value.
+array_unshift() - Prepend value into array.
+16. yield, content
+17. extends, includes
+18. groupBy in laravel orm
+19. traits vs helpers
+Laravel traits are a group of functions that you include within another class. A trait is like an abstract class.
+
+20. Facades behave like static classes, its a bad practice to use this classes.
+Facades in Laravel :- Facades provide a "static" interface to classes that are available in the application's service container. Laravel ships with many facades which provide access to almost all of Laravel's features. Laravel facades serve as "static proxies" to underlying classes in the service container, providing the benefit of a terse, expressive syntax while maintaining more testability and flexibility than traditional static methods.
+
+21. Hookes
+22. POST means "create new" as in "Here is the input for creating a user, create it for me". PUT means "insert, replace if already exists"
+
+23. reverse routing
+24. curl methods
+25. // Calling POST method function
+    $request = new \Illuminate\Http\Request($data);
+    $bodAllocFill =  $this->getFillBodSeat($request);
+
+26. https://www.geeksforgeeks.org/sql-ddl-dql-dml-dcl-tcl-commands/     ***imp.
+
+27. static vs public fuctions
+public: Public declared items can be accessed everywhere.
+protected: Protected limits access to inherited and parent classes (and to the class that defines the item).
+private: Private limits visibility only to the class that defines the item.
+static: A static variable exists only in a local function scope, but it does not lose its value when program execution leaves this scope.
+static function:
+Any method declared as static is accessible without the creation of an object. Static functions are associated with the class, not an instance of the class. They are permitted to access only static methods and static variables. To add a static method to the class, static keyword is used.
+Static Methods: It can be accessed by scope resolution like self:: or parent:: or just by using className:: etc
+<?php
+/* Use static function as a counter */  
+class solution {
+    static $count;
+    public static function getCount() {
+        return self::$count++;
+    }
+}
+solution::$count = 1;
+?>
+
+final: Final keywords prevents child classes from overriding a method by prefixing the definition with final. If the class itself is being defined final then it cannot be extended.
+
+28. By reference or value
+By default, function arguments are passed by value (so that if the value of the argument within the function is changed, it does not get changed outside of the function). To allow a function to modify its arguments, they must be passed by reference.
+To have an argument to a function always passed by reference, prepend an ampersand (&) to the argument name in the function definition.
+pass by reference. Clearly, PHP, like C++, is a language that does support pass by reference. By default, objects are passed by value.
+Pass by reference: When variables are passed by reference, use & (ampersand) symbol need to be added before variable argument.
+Is passing by reference faster PHP?
+So in this case, calling by reference is faster because the value is changed inside the function. Otherwise there is no real difference between "by reference" and "by value", the compiler is smart enough not to create a new copy each time if there is no need.
+
+29. polymorphism means the ability to have many forms.
+Polymorphism is essentially an OOP pattern that enables numerous classes with different functionalities to execute or share a commonInterface.
+same name of functions with different functionality for sharing.
+type: overloading(compile time), overiding(run time)
+
+Function Overloading: Function overloading contains same function name and that function preforms different task according to number of arguments.
+In PHP function overloading is done with the help of magic function __call(). This function takes function name and arguments. 
+
+Function Overriding: Function overriding is same as other OOPs programming languages. In function overriding, both parent and child classes should have same function name with and number of arguments. It is used to replace parent method in child class. The purpose of overriding is to change the behavior of parent class method. The two methods with the same name and same parameter is called overriding.
+
+30. Abstraction : To show the needed/relevant information or details without showing all information which is not necessary is called abstraction.
+Data Abstraction is the most important features of any OOPS programming language. It shows only useful information, remaining are hidden form the end user. Abstraction is the any representation of data in which the implementation details are hidden (abstracted).
+
+31. What is magic constant in PHP?
+Magic constants are the predefined constants in PHP which get changed on the basis of their use. They start with double underscore (__) and ends with double underscore. They are similar to other predefined constants but as they change their values with the context, they are called magic constants.
+Magic methods are special methods which override PHP's default's action when certain actions are performed on an object. All methods names starting with __ are reserved by PHP. Therefore, it is not recommended to use such method names unless overriding PHP's behavior.
+
+32. Wrapping some data in single unit is called Encapsulation. Encapsulation is used to safe data or information in an object from other it means encapsulation is mainly used for protection purpose.
+In technology era, it is essential to maintain your privacy. So for the security reason, Sometime we make private method.
+Private method means it can be accessed within same class. Outside, Class can't access private method of other class.That's why encapsulation is known as data hiding is the main advantage for encapsulation.
+Second advantage of encapsulation is you can make the class read only or write only by providing setter or getter method.
+
+33. Inheritance : 
+Most of the object-oriented programming languages support multiple inheritance. PHP does not support multiple inheritance because it causes ambiguity and confuses the compiler. To use inheritance PHP introduced the concept of interfaces and traits.
+
+34. Traits, example- like helpers
+Php get confuss when class D inherit B and C where B and C both have a same function then php don't know which class function to use, instead it throw fatel error in this case. Thats why we use traits. 
+
+35. What is namespace and use?
+A namespace is a declarative region that provides a scope to the identifiers (the names of types, functions, variables, etc) inside it. Namespaces are used to organize code into logical groups and to prevent name collisions that can occur especially when your code base includes multiple libraries
+ex. namespace App\Models;
+
+36. $this is used for not-static method and self is for static methods
+
+37. Echo can output one or more string but print can only output one string and always returns 1.
+Echo is faster than print because it does not return any value.
+
+38. $message stores variable data while $$message is used to store variable of variables.
+
+39. Three dots function : for dynamic parameters
+function add(...$numbers) {  
+    $sum = 0;  
+    foreach ($numbers as $n) {
+        $sum += $n;  
+    }  
+    return $sum;
+}    
+echo add(1, 2, 3, 4); 
+
+40. session vs cookie
+The main difference between session and cookie is that cookies are stored on user's computer in the text file format while sessions are stored on the server side.
+Cookies can't hold multiple variables, on the other hand, Session can hold multiple variables.
+You can manually set an expiry for a cookie, while session only remains active as long as browser is open.
+
+41. htaccessbail|
+The .htaccess is a configuration file on Apache server. You can change configuration settings using directives in Apache configuration files like .htaccess and httpd.conf.
+
+42. What is the difference between Model Factory and a DB seeder in Laravel?
+Model Factories are used for testing purposes and populating your database with a huge amount of fake data. This could be used for unit testing and performance testing of your system. In factory we can also generate data related to the relationship while in db seeder we can't.
+On the other hand, Seeder Classes are used for inserting data that is crucial and important for the system to operate with. Something like the superadminstrator, Basic Roles/Role permissions in the system, Countries, Cities and other data that may not come from CRUD's
+
+43. What is stub in laravel?
+Laravel 7 came with a new feature, stub customization. ... All these stubs contain the basic content that is used to generate the files that are created with the artisan make command. After publishing these stubs, you have the ability to edit their content.
+
+44. Swapping Without using Third Variable
+$a=$a+$b;  
+$b=$a-$b;  
+$a=$a-$b;
+
+45. mutators & casting
+46. JS: unload()
+it's for hitting an event when browser closes.
+its useful tracking time of user in page.
+
+47. let vs var in js
+48. ajax callback function
+done, fail, when
+
+49. function vs method
+50. service provider vs service container vs depedencies injection
+51. reverse routing
+{{ HTML::link_to_action('users@login') }}
+it will call the controllers function and hit that route
+
+52. group by vs distinct
+In group by it will prefers the first comman value
+In distinct, it returns only distict column
+If used multiple columns in distict it will return the unique combination of these two columns
+
+53. Storage Engine in mysql ex. (InnoDB can rollback)
+54. you may "squash" your migrations into a single SQL file
+// Dump the current database schema and prune all existing migrations...
+php artisan schema:dump --prune
+When you execute this command, Laravel will write a "schema" file to your application's database/schema directory. Now, when you attempt to migrate your database and no other migrations have been executed, Laravel will execute the schema file's SQL statements first. After executing the schema file's statements, Laravel will execute any remaining migrations that were not part of the schema dump.
+
+55. You may check for the existence of a table or column using the hasTable and hasColumn methods:
+if (Schema::hasTable('users')) {
+    // The "users" table exists...
+}
+if (Schema::hasColumn('users', 'email')) {
+    // The "users" table exists and has an "email" column...
+}
+
+56. device token vs fcm token
+device token is device id
+fcm token is for firebase notifications
+
+57. where vs whereHas
+58. ->where('status', 1)
+    ->having("distance", "<", $radius)
+
+59. database engine difference
+60. interfaces
+61. contructor overloading
+62. scope resolution parent for contructor overloading
+63. function overloading not possible in php
+64. function overrides
+
+65. type hinting
+With Type hinting we can specify the expected data type (arrays, objects, interface, etc.) for an argument in a function declaration.
+
+66. method chaining php
+echo $a->addA()->addB()->getStr();
+
+67. recursive function - function under function calling itself
+68. array recursive vs array walk recursive vs array map
+69. array_column() and extract()
+70. multiple inheritance(not possible) using interface in php
+71. curd relation methods
+72. sync for inserting multiple data of hasmany releation, no need to use foreach
+73. what is pivot values?
+The pivot or pivot element is the element of a matrix, or an array, which is selected first by an algorithm, to do certain calculations.
+
+/////////////// mysql ////////////////
+
+1. 2nd highest salary, and when all have same salary (we can use subquery of 2nd highest in equal to that highest salary to get all the same 2nd highest values)
+2. validate email and phone combination when inserting mysql data
+3. joins vs subquery
+
+/////////////// laravel releations ////////////////////
+
+1. associate() vs sync()
+    associate works from the belongsTo side of the relationship, for instance you can associate an author with a book like:
+    // this sets the author_id (the parent model) on the book table
+    $book->author()->associate($someAuthorModelInstance);
+    // we still need to save the $book
+    $book->save();
+
+    sync can be used to synchronize the either side of a belongsToMany relationship, by default it drops all the relations and just keep those provided as the arguments:
+    // this will drop all the existing roles except the roles with id 1,2,3. If these ids don't exist it will attach them (still dropping the existing ones).
+    $user->roles()->sync([1,2,3]);
+    // the default behaviour can be changed by passing a 'false' as a second argument.
+    // this will attach the roles with ids 1,2,3 without affecting the existing roles.
+    // in this mode sync behaves similar to the attach method.
+    $user->roles()->sync([1,2,3], false);
+
+2. $table->softDeletes();
+To add a deleted_at column to your table, you may use the softDeletes method from a migration
+To force soft deleted models to appear in a result set, use the withTrashed method on the query
+To restore a soft deleted model into an active state, use the restore method:
+$user->restore();
+forceDelete();
