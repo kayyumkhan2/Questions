@@ -235,6 +235,7 @@ echo $a->addA()->addB()->getStr();
 73. what is pivot values?
 The pivot or pivot element is the element of a matrix, or an array, which is selected first by an algorithm, to do certain calculations.
 74. Rest api vs SOAP api
+75. yield vs include
 
 /////////////// mysql ////////////////
 
