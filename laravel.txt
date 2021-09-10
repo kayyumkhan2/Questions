@@ -234,6 +234,7 @@ echo $a->addA()->addB()->getStr();
 72. sync for inserting multiple data of hasmany releation, no need to use foreach
 73. what is pivot values?
 The pivot or pivot element is the element of a matrix, or an array, which is selected first by an algorithm, to do certain calculations.
+74. Rest api vs SOAP api
 
 /////////////// mysql ////////////////
 
