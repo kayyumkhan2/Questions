@@ -236,6 +236,23 @@ echo $a->addA()->addB()->getStr();
 The pivot or pivot element is the element of a matrix, or an array, which is selected first by an algorithm, to do certain calculations.
 74. Rest api vs SOAP api
 75. yield vs include
+76. getter and setter in php
+to access the private object of a class
+<?php
+   class Person{
+      private $name;
+      public function setName($name){
+         $this->name = $name;
+      }
+      public function getName(){
+         return 'welocme'. $this->name;
+      }
+   }
+   $person = new Person();
+   $person->setName('Alex');
+   $name = $person->getName();
+   echo $name;
+?>
 
 /////////////// mysql ////////////////
 
