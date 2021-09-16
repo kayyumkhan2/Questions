@@ -253,6 +253,9 @@ to access the private object of a class
    $name = $person->getName();
    echo $name;
 ?>
+77. Magic function ex. __call() with double underscore
+78. super global variable ex. $_SERVER
+79. 
 
 /////////////// mysql ////////////////
 
