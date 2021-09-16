@@ -255,7 +255,7 @@ to access the private object of a class
 ?>
 77. Magic function ex. __call() with double underscore
 78. super global variable ex. $_SERVER
-79. 
+79. how to search a string in whole database in mysql
 
 /////////////// mysql ////////////////
 
