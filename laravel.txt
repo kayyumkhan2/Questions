@@ -15,7 +15,7 @@ PUT to update/replace a resource
 PATCH to update/modify a resource
 DELETE to destroy a resource
 
-PUT - update a resource (by replacing it with a new version)*
+PUT - update a resource (by replacing it with a new version)*App\Providers\EventServiceProvider
 PATCH - update part of a resource (if available and appropriate)*
 POST - It will insert same row in table if called multiple times but PUT will completely replace the same data
 
@@ -256,6 +256,7 @@ to access the private object of a class
 77. Magic function ex. __call() with double underscore
 78. super global variable ex. $_SERVER
 79. how to search a string in whole database in mysql
+80. Event and listener laravel
 
 /////////////// mysql ////////////////
 
