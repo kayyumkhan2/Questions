@@ -257,12 +257,19 @@ to access the private object of a class
 78. super global variable ex. $_SERVER
 79. how to search a string in whole database in mysql
 80. Event and listener laravel
+81. eager loading vs lazy loading laravel
+82. The SOLID principles of OOP are: Single Responsibility Principle, Open-Closed Principle, Liskov Substitution Principle (LSP), Interface Segregation Principle (ISP), and Dependency Inversion Principle (DIP). 
+83. Design Patterns in PHP
+84. DRY principle : is stated as "Every piece of knowledge must have a single, unambiguous, authoritative representation within a system".
+85. trait vs interface
 
 /////////////// mysql ////////////////
 
 1. 2nd highest salary, and when all have same salary (we can use subquery of 2nd highest in equal to that highest salary to get all the same 2nd highest values)
 2. validate email and phone combination when inserting mysql data
 3. joins vs subquery
+4. group_concat()
+5. string functions in mysql stored procedure
 
 /////////////// laravel releations ////////////////////
 
