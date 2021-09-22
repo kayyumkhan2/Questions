@@ -262,6 +262,7 @@ to access the private object of a class
 83. Design Patterns in PHP
 84. DRY principle : is stated as "Every piece of knowledge must have a single, unambiguous, authoritative representation within a system".
 85. trait vs interface
+86. tinker -> it allows us to interact with a database without creating the routes, using CLI
 
 /////////////// mysql ////////////////
 
