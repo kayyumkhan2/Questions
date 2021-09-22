@@ -270,6 +270,7 @@ to access the private object of a class
 3. joins vs subquery
 4. group_concat()
 5. string functions in mysql stored procedure
+6. blob data type -> used for uploading file, image in db, upto 4gb file can be stored
 
 /////////////// laravel releations ////////////////////
 
