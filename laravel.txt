@@ -263,6 +263,10 @@ to access the private object of a class
 84. DRY principle : is stated as "Every piece of knowledge must have a single, unambiguous, authoritative representation within a system".
 85. trait vs interface
 86. tinker -> it allows us to interact with a database without creating the routes, using CLI
+87. Hooks CI
+CodeIgniter’s Hooks feature provides a means to tap into and modify the inner workings of the framework without hacking the core files.
+Note : suppose you have big project and almost 100 controller , if every time to check session exists or not , each and every post request so than to use hook
+ex: pre_controller, post_controller etc
 
 /////////////// mysql ////////////////
 
