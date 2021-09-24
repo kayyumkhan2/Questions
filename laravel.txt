@@ -55,6 +55,7 @@ array_search() - its returns the position of searched value.
 array_unshift() - Prepend value into array.
 array_walk_recursive() - Run each array element in a user-defined function
 array_walk_recursive() vs array_map() -> https://stackoverflow.com/questions/3432257/difference-between-array-map-array-walk-and-array-filter
+The difference between this function and the array_walk() function is that with this function you can work with deeper arrays (an array inside an array).
 16. yield, content
 17. extends, includes
 18. groupBy in laravel orm
