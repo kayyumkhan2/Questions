@@ -271,6 +271,10 @@ CodeIgniter’s Hooks feature provides a means to tap into and modify the inner 
 Note : suppose you have big project and almost 100 controller , if every time to check session exists or not , each and every post request so than to use hook
 ex: pre_controller, post_controller etc
 
+/////////////// JS //////////////////
+1. XMLHttpRequest
+XMLHttpRequest (XHR) objects are used to interact with servers. You can retrieve data from a URL without having to do a full page refresh. This enables a Web page to update just part of a page without disrupting what the user is doing.
+
 /////////////// mysql ////////////////
 
 1. 2nd highest salary, and when all have same salary (we can use subquery of 2nd highest in equal to that highest salary to get all the same 2nd highest values)
