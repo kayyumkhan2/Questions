@@ -270,6 +270,8 @@ to access the private object of a class
 CodeIgniter’s Hooks feature provides a means to tap into and modify the inner workings of the framework without hacking the core files.
 Note : suppose you have big project and almost 100 controller , if every time to check session exists or not , each and every post request so than to use hook
 ex: pre_controller, post_controller etc
+88. create your own command
+89. laravel orm (object relational method)
 
 /////////////// JS //////////////////
 1. XMLHttpRequest
