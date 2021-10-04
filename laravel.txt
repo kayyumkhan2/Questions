@@ -272,6 +272,8 @@ Note : suppose you have big project and almost 100 controller , if every time to
 ex: pre_controller, post_controller etc
 88. create your own command
 89. laravel orm (object relational method)
+90. Webhook vs API: What’s the Difference Between Them?
+webhooks receive, while API retrieves
 
 /////////////// JS //////////////////
 1. XMLHttpRequest
