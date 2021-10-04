@@ -32,10 +32,10 @@ Sockets allow real-time communication between the browser of a client and the se
 5. Bcrypt hash
 6. Mail
 7. JSON.parse() to convert the string into a JavaScript object (string to object)
-8. Providers
+8. json.stringify() method converts a JavaScript object or value to a JSON string (object to string)
 9. middleware:
 Middleware acts as a bridge between a request and a response.
-10. json.stringify() method converts a JavaScript object or value to a JSON string (object to string)
+10. Providers
 11. What is Ajax? Ajax is abbreviated as Asynchronous Javascript and XML
 
 12. $prodID= Crypt::encrypt($data->id)
