@@ -274,6 +274,7 @@ ex: pre_controller, post_controller etc
 89. laravel orm (object relational method)
 90. Webhook vs API: What’s the Difference Between Them?
 webhooks receive, while API retrieves
+91.composer dump-autoload won't download a thing. It just regenerates the list of all classes that need to be included in the project
 
 /////////////// JS //////////////////
 1. XMLHttpRequest
