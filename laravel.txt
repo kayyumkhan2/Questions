@@ -287,6 +287,9 @@ XMLHttpRequest (XHR) objects are used to interact with servers. You can retrieve
 4. group_concat()
 5. string functions in mysql stored procedure
 6. blob data type -> used for uploading file, image in db, upto 4gb file can be stored
+7. heap table
+Clustered Index: A table without primary key
+Heap tables are tables without a Clustered Index. A table in SQL Server can have a Clustered Index, then it's called a Clustered Table, and without a Clustered Index, it's called a Heap Table. In a heap table, the data is not sorted in any way, it's just a pile of unordered, unstructured records
 
 /////////////// laravel releations ////////////////////
 
