@@ -277,6 +277,7 @@ webhooks receive, while API retrieves
 91. composer dump-autoload won't download a thing. It just regenerates the list of all classes that need to be included in the project
 92. Lumen: 
 Lumen is the perfect solution for building Laravel based micro-services and blazing fast APIs. In fact, it's one of the fastest micro-frameworks available.
+93. Mutators & Casting
 
 /////////////// JS //////////////////
 1. XMLHttpRequest
