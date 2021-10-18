@@ -6,7 +6,76 @@ Why Our Company?
 What are your Strength and Weakness?
 Questions form Internship/prior projects.
 ----------------------------------------------------
-#TECHNICAL
+#CORE PHP
+1.  // Super Global
+    $_SERVER();
+    $_GET();
+    $_POST();
+    $_REQUEST();
+    $_COOKIE();
+    $_ENV();
+    $_FILES();
+    $_SESSION();
+
+
+2. // Magic Constants
+    __FILE__;
+    __CLASS__;
+    __FUNCTION__;
+    __DIR__;
+    __LINE__;
+    __METHOD__;
+    __NAMESPACE__;    
+
+3.  //Magic Methods
+    __call();
+    __set();
+    __sleep();
+    __wakeup();
+    __clone();
+    __isset();
+    __unset();
+    __invoke();
+    
+4. //String function
+   trim();
+   ucword(); 
+   ucfirst(); 
+   str_word_count(); 
+   Str_replace(); 
+   Substr(); 
+   str_replace(); 
+   str_len(); 
+   impload(); 
+   print(); 
+   strrev(); 
+   strtolower(); 
+   strtoupper(); 
+   md5(); 
+   strpos(); 
+
+5. //array functions
+   empload();
+   sort();
+   rsort();
+   asort();
+   arsort();
+   krsort();
+   array_map();
+   array_filter();
+   array_keys();
+   array_values();
+   array_unique();
+   print_r();
+   array_filter();
+   array_combine();
+   array_merge();
+   count();
+   sizeof();
+   array_push();
+   array_pop();
+
+#Laravel
 
 1. Why use PUT | PATCH | DELETE in Laravel
 POST to create a resource
