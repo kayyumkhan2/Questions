@@ -351,6 +351,8 @@ Lumen is the perfect solution for building Laravel based micro-services and blaz
 95. What is a closure in Laravel?
 A Closure is an anonymous function. Closures are often used as callback methods and can be used as a parameter in a function. If you take the following example: function handle(Closure $closure) { $closure(); } handle(function(){ echo 'Hello! '; });
 96. BIND vs Singleton in Laravel?
+97. custom command creation in laravel
+98. unit testing in laravel
 
 /////////////// JS //////////////////
 1. XMLHttpRequest
@@ -385,6 +387,8 @@ Heap tables are tables without a Clustered Index. A table in SQL Server can have
     // this will attach the roles with ids 1,2,3 without affecting the existing roles.
     // in this mode sync behaves similar to the attach method.
     $user->roles()->sync([1,2,3], false);
+
+2. manyToMany relationship
 
 2. $table->softDeletes();
 To add a deleted_at column to your table, you may use the softDeletes method from a migration
