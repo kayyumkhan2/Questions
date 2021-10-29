@@ -396,3 +396,9 @@ To force soft deleted models to appear in a result set, use the withTrashed meth
 To restore a soft deleted model into an active state, use the restore method:
 $user->restore();
 forceDelete();
+
+// Very most 100 usefull interview quetions from core php 
+    https://www.bestinterviewquestion.com/core-php-interview-questions
+     
+
+
